@@ -359,3 +359,128 @@ footer{
     height: 40vh;
     opacity: .3;
 }
+
+@media screen and (min-width: 850px){
+    .phone{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    nav ul{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    h1{
+        font-size: 46px;
+    }
+    h3{
+        font-size: 32px;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+    }
+    .page.flexphone p{
+        text-align: center;
+        margin: auto;
+    }
+    .desktop{
+        display: none;
+    }
+    .left, .right{
+        width: 80vw;
+    }
+    .page{
+        min-height: 80vh;
+    }
+    .page.flexphone{
+        margin-top: 200px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .flexphone > .flexcontainer{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .right h1, .left h1{
+        margin-top: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .right img, .left img{
+        max-width: 70vw;
+        width: 400px;
+    }
+    .flexcontainer{
+        height: unset;
+    }
+    .page#totebags{
+        margin-top: 500px;
+        height: unset;
+    }
+    .page#totebags img{
+        max-width: 60vw;
+    }
+    .page#totebags h1{
+        margin-bottom: -100px;
+    }
+    .page#totebags .right{
+        height: 60vh;
+        margin-top: -100px;
+    }
+
+    #contact {
+        margin-top: 0;
+    }
+    #contact > .flexcontainer {
+        align-items: flex-start;
+    }
+    #contact > .flexcontainer >.flexcontainer{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #contact img{
+        width: 15vw;
+        max-width: 80px;
+        margin: 0 7vw 0 10vw;
+    }
+
+    .blob:nth-child(1){
+        display: none;
+    }
+    .blob:nth-child(2){
+        right: -35vw;
+        top: 80vh;
+        opacity: .6;
+    }
+    .blob:nth-child(3){
+        display: none;
+    }
+    .blob:nth-child(4){
+        left: -10vw;
+        top: 180vh;
+        height: 60vh;
+        opacity: .6;
+    }
+    .blob:nth-child(6){
+        display: none;
+    }
+    .blob:nth-child(7){
+        left: 0;
+        top: 405vh;
+        height: 50vh;
+    }
+    .blob:nth-child(9){
+        display: none;
+    }
+    .blob:nth-child(10){
+        left: 10vw;
+        top: 550vh;
+        height: 70vh;
+        opacity: .5;
+    }
+}

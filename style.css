@@ -430,11 +430,19 @@ footer{
     }
     .page#totebags .right{
         height: 60vh;
+        margin-top: -25vh;
+    }
+
+    .page#command{
         margin-top: -100px;
+    }
+    .page#command p{
+        margin-left: -5vw;
     }
 
     #contact {
         margin-top: 0;
+        margin-bottom: -20vh;
     }
     #contact > .flexcontainer {
         align-items: flex-start;
@@ -446,7 +454,7 @@ footer{
     #contact img{
         width: 15vw;
         max-width: 80px;
-        margin: 0 7vw 0 10vw;
+        margin: 0 5vw 0 5vw;
     }
 
     .blob:nth-child(1){

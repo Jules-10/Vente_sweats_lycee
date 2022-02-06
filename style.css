@@ -495,7 +495,7 @@ footer{
 
 @media screen and (max-width: 460px){
     #totebags .right{
-        height: 35vh;
+        height: 25vh;
     }
 
     #command .flexcontainer{

@@ -492,3 +492,17 @@ footer{
         opacity: .5;
     }
 }
+
+@media screen and (max-width: 460px){
+    #totebags .right{
+        height: 35vh;
+    }
+
+    #command .flexcontainer{
+        margin-left: -50px;
+    }
+
+    #contact *:not(h1) {
+        font-size: 18px;
+    }
+}

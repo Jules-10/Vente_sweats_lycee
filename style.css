@@ -464,7 +464,7 @@ footer{
         margin-top: -100px;
     }
     .page#command p{
-		margin-left: 0;
+		margin-left: -10vw;
 		width: 85vw;
     }
 	.page#command a{
@@ -552,7 +552,7 @@ footer{
     }
 
     #command .flexcontainer{
-        margin-left: -50px;
+        margin-left: -3vw;
     }
 
     #contact *:not(h1) {
